@@ -19,7 +19,8 @@ class Solution {
         
         is_Island(ar, i+1, j); // for vertically upper row
         is_Island(ar, i-1, j); // for vertically lower row
-        is_Island(ar, i, j+1); // for horizontally upper row
-        is_Island(ar, i, j-1); // for horizontally lower row
+        is_Island(ar, i, j+1); // for horizontally right column
+        is_Island(ar, i, j-1); // for horizontally left column
     }
+
 }
